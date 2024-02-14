@@ -3,89 +3,84 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cuur Exclusive</title>
+    <title>Locks Loyalty Salon</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
     <style>
       body {
-        font-family: "Open Sans", sans-serif;
+        font-family: "Josefin Sans", sans-serif;
       }
-      .header-container {
-        background-color: #333;
-        color: #fff;
+      .salon-container {
+        background-color: #ddbea9;
+        color: #2e151b;
+      }
+      .menu-bar {
+        background-color: #ffffff;
+      }
+      .content-container {
+        background-image: url("https://placehold.co/1024x768");
+        background-repeat: no-repeat;
+        background-size: cover;
         padding: 4rem 1rem;
       }
-      .profile-card {
-        background-color: #f7f7f7;
+      .feature-card {
+        background-color: #ffffff;
         padding: 2rem;
         border-radius: 0.5rem;
-        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-          0 4px 6px -4px rgba(0, 0, 0, 0.1);
       }
     </style>
   </head>
   <body>
-    <header class="header-container text-center">
-      <nav class="text-xs uppercase tracking-wider mb-4">
-        <a href="#" class="px-4">Shop New Buys</a>
-        <a href="#" class="px-4">Brands</a>
-        <a href="#" class="px-4">Gifts</a>
-        <a href="#" class="px-4">Our Stores</a>
-        <a href="#" class="px-4">Subscription</a>
-        <a href="#" class="px-4">Customer Service</a>
-        <a href="#" class="px-4">Gift Cards</a>
-        <a href="#" class="px-4">Gift Finder</a>
+    <header class="salon-container text-center p-4">
+      <nav class="menu-bar flex justify-between items-center p-2">
+        <div>
+          <i class="fas fa-bars"></i>
+          <span class="px-4">Maecenas</span>
+          <span class="px-4">Luctus</span>
+        </div>
+        <div>
+          <span class="font-bold text-3xl">8</span>
+        </div>
+        <div>
+          <span class="px-4">Fusce</span>
+          <span class="px-4">Dolor</span>
+          <span class="px-4">Fames</span>
+          <span class="px-4">Bonos</span>
+        </div>
       </nav>
-      <h1 class="text-6xl font-semibold mb-4">CUUR</h1>
-      <h2 class="font-light text-sm mb-8">Exclusive Collection</h2>
-      <form action="#" method="POST" class="mb-8">
-        <input
-          type="email"
-          placeholder="Email Address"
-          class="p-2 border border-gray-300"
-        />
-        <button type="submit" class="p-2 bg-black text-white">Subscribe</button>
-      </form>
-      <p class="text-sm">Free delivery and returns within the US</p>
     </header>
 
-    <main class="my-8 text-center">
-      <section class="mb-8">
-        <!-- Placeholder for main hero image -->
-        <img
-          src="https://placehold.co/600x400"
-          alt="Main hero image of a woman with elegant hairstyle, high detail needed for fashion website"
-          class="mx-auto mb-4"
-        />
-        <h3 class="text-2xl font-semibold mb-4">Curated Looks</h3>
-        <p class="text-xs mb-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    <main class="content-container">
+      <section class="text-center">
+        <h1 class="text-6xl font-bold my-4">Locks Loyalty</h1>
+        <p class="mb-8">
+          Some inspiring quote about beauty and elegance goes here, set in a
+          stylish and readable font.
         </p>
       </section>
 
-      <section class="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <!-- Profile cards -->
-        <div class="profile-card">
-          <img
-            src="https://placehold.co/100x100"
-            alt="Profile image of a woman with a stylish haircut, placeholder"
-            class="mx-auto mb-4 rounded-full"
-          />
-          <h4 class="text-lg font-semibold mb-2">Name of the Person</h4>
-          <p class="text-xs mb-4">Position or relevant info</p>
-          <button type="button" class="text-xs text-white bg-black px-4 py-2">
-            View Profile
-          </button>
+      <section class="flex justify-center space-x-4 my-8">
+        <!-- Feature cards -->
+        <div class="feature-card">
+          <i class="fas fa-cut"></i>
+          <h4 class="text-lg font-semibold mb-2">Book a session</h4>
         </div>
-        <!-- Repeat for each profile -->
+        <!-- Repeat for each feature -->
       </section>
     </main>
+
+    <footer class="salon-container text-center p-4">
+      <div class="flex justify-center space-x-4 my-8">
+        <a href="#" class="p-2">Link</a>
+        <!-- Repeat for each footer link -->
+      </div>
+    </footer>
   </body>
 </html>
