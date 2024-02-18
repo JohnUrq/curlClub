@@ -1,0 +1,8 @@
+webpage at:
+http://localhost:8888/curlClub/api/frontend/
+
+Github at:
+https://github.com/JohnUrq/curlClub
+
+php my admin:
+http://localhost:8888/phpMyAdmin5/
