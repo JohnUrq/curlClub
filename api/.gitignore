@@ -1,0 +1,40 @@
+# Ignoring configuration files that may contain sensitive information
+/.env
+
+# PHP vendor directory
+/vendor/
+
+# Node modules directory
+/node_modules/
+
+# Ignoring compiled JavaScript files
+/*.js.map
+/*.min.js
+
+# Ignoring SQL dump files
+*.sql
+*.sql.gz
+
+# Ignoring common directory names & files that can contain sensitive information or are generated during runtime
+/cache/
+/logs/
+/temp/
+
+# Ignoring OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignoring editor directories and files
+/.idea/
+*.sublime-project
+*.sublime-workspace
+.vscode/
+
+# Ignoring specific files that may be present in a PHP/JavaScript/SQL project
+/composer.lock
+/package-lock.json
+/yarn.lock
+
+# Build directories
+/dist/
+/build/
